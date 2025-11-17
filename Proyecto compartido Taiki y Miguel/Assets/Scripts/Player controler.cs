@@ -29,6 +29,20 @@ public class Playercontroler : MonoBehaviour
             rb.linearVelocityX = 0;       
         
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            rb.linearVelocityX = speed;
+
+
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+
+
+            rb.linearVelocityX = 0; 
+
+        }
         ////Codigo de moviviemto Izquierda
         //if (Input.GetKey(KeyCode.A))
         //{
@@ -47,6 +61,14 @@ public class Playercontroler : MonoBehaviour
         {
             Destroy(gameObject);
 
+
+        }
+
+        if (collision.gameObject.CompareTag("Moneda"))
+        {
+            Destroy(gameObject);
+
+            print("+10 puntos");
 
         }
     }

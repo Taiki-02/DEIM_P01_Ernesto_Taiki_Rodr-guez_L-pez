@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - "Se\xF1al"
+  - Trigger nivel
+  - Clonacion
+  - Moneda
   layers:
   - Default
   - TransparentFX
