@@ -8,6 +8,7 @@ TagManager:
   - Trigger nivel
   - Clonacion
   - Moneda
+  - PlataformaSalto
   layers:
   - Default
   - TransparentFX
